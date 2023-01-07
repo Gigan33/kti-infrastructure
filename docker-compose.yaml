@@ -12,7 +12,7 @@ services:
       - flask
 
   flask:
-    image: "gigan33/flask:1.0"
+    image: "zhiklenkovad/flask:1.0"
     container_name: flask
     environment:
       - FLASK_DEBUG=True
